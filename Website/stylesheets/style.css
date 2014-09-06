@@ -1,0 +1,156 @@
+body{
+	background-color:#7F0000;
+	color: #5D2B24;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#header{
+	background-color:#FAEAD1;
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	margin: 15px;
+	height: 125px;
+}
+#navbar ul{
+	margin:35px 0px 0px 0px;
+	padding: 0px;
+}
+
+#navbar ul li{
+	margin: 0px;
+	float: left;
+	padding: 10px 20px;
+}
+
+#navbar ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#navbar ul li.active, #navbar ul li:hover{
+	background-color: #A61008;
+}
+
+#logo{
+	margin: 10px 20px;
+	float: left;
+}
+
+#logo a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#content{
+	padding: 20px;
+	margin: 0px 15px;
+	background-color:#FAEAD1;
+}
+
+#contact{
+	padding: 20px;
+	margin: 0px 15px;
+	background-color:#FAEAD1;
+}
+
+#sidebar{
+	background-color:#FAEAD1;
+	text-align: center;
+	padding: 15px;
+	margin: 0px 25px 0px 0px;
+	float: right;
+}
+
+#footer{
+	background-color:#FAEAD1;
+	color: #34151B;
+	text-align: center;
+	margin: 15px;
+}
+	
+h1{
+	font-family: "Times New Roman", Georgia, serif;
+	font-weight: bold;
+	font-size: 26px;
+	color: #34151B;
+	}
+	
+h2{
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #34151B;
+	margin: 3px 0px;
+	clear: both;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.position, .time, .email{
+	font-style:italic;
+	color: #4A4B43;
+}
+
+.pictures{
+	float: right;
+}
+
+.biography{
+	width: 370px;
+	float: left;
+}
+
+.slides_container {
+	overflow:hidden;
+}
+
+.slides_container a {
+	width:550px;
+	height:270px;
+	display:block;
+}
+
+#slides .next,#slides .prev {
+	height: 10px;
+	z-index:101;
+	position:relative;
+	top: -150px;
+	left: -19px;
+}
+
+#slides .next{
+	left: 527px;
+}
+
+.pagination {
+	position:relative;
+	top:-30px;
+	margin:0px 0px 0px 200px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
